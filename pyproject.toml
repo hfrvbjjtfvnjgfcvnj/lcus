@@ -20,6 +20,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-[tool.setuptools.packages]
-find = {}
+[tool.setuptools.packages.find]
+where = ["."]  # Look in the root directory
+include = ["lcus*"]  # Include lcus package and subpackages
     
