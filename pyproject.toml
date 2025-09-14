@@ -21,6 +21,6 @@ classifiers = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["."]  # Look in the root directory
+where = ["src"]  # Look in the root directory
 include = ["lcus*"]  # Include lcus package and subpackages
     
